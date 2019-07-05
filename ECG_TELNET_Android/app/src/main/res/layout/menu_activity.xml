@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.6"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:background="@color/orangelight"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/img_width_height"
+                android:layout_height="@dimen/img_width_height"
+                android:layout_gravity="center|top"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="100dp"
+                android:src="@drawable/add"
+                android:layout_marginLeft="60dp"
+                android:id="@+id/img1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="-90dp"
+                android:layout_marginTop="90dp"
+                android:text="Add"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/slide_title"
+                android:textStyle="bold"
+                android:layout_marginLeft="-90dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:background="@color/greenlight"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/img_width_height"
+                android:layout_height="@dimen/img_width_height"
+                android:layout_gravity="center|top"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="100dp"
+                android:src="@drawable/list"
+                android:layout_marginLeft="45dp"
+                android:id="@+id/img2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="-90dp"
+                android:layout_marginTop="90dp"
+                android:text="List"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/slide_title"
+                android:textStyle="bold"
+                android:layout_marginLeft="-90dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.4"
+        android:background="@color/Blue"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/img_width_height"
+            android:layout_height="@dimen/img_width_height"
+            android:layout_gravity="center|top"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/signal"
+            android:layout_marginLeft="144dp"
+            android:id="@+id/img3"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ECG SIGNAL AUTHENTICATION"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginStart="-250dp"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="-250dp" />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

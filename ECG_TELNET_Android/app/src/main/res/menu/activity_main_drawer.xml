@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/predict"
+            android:icon="@drawable/ml"
+            android:title="ML Model Predict" />
+
+        <item
+            android:id="@+id/train"
+            android:icon="@drawable/ml"
+            android:title="ML Model Train" />
+        <item
+            android:id="@+id/nav_videos"
+            android:icon="@drawable/usrusr"
+            android:title="Add new Person" />
+
+        <item
+            android:id="@+id/list_ecg"
+            android:icon="@drawable/list"
+            android:title="ECG Persons List" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings" />
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_visit_us"
+                android:icon="@mipmap/ic_globe"
+                android:title="Visit Us" />
+        </menu>
+    </item>
+
+</menu>
